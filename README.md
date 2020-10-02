@@ -1,6 +1,6 @@
 # Samsung VR Reference
 
-I'm creating this repository as a quick reference for the Samsung VR video player (formerly MilkVR) in case they take [the page with this info](https://samsungvr.com/portal/content/faq_tech_gear_vr) down.
+I'm creating this repository as a quick reference for the Samsung VR video player (formerly MilkVR) in case they take [the page with this info](https://samsungvr.com/portal/content/faq_tech_gear_vr) down. (**Update:** They've taken the page down, along with all of their VR info, and discontinued support as of September 30, 2020. See screenshot at the bottom of this file.)
 
 ## Formats
 
@@ -45,3 +45,6 @@ You can select multiple files and export them all at once. Pay particular attent
 ![Mali Converter compression options](mali-converter-compression-options.png)
 
 Place the final .pkm files into the SamsungVR or MilkVR folder on the root of the device.
+
+## Samsung Official Discontinuation
+![Samsung VR support dropped](2020-10-02-11_40_40-Samsung-VR.png)
