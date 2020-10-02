@@ -33,7 +33,6 @@ I'm creating this repository as a quick reference for the Samsung VR video playe
 | RTXP 360 cylindrical                  | _rtxp                             |
 
 ## Customization
-
 The main room for Samsung VR can be modified by creating a cubemap from a 3D projected equirectangular image. A converter exists here: https://jaxry.github.io/panorama-to-cubemap/
 
 Included is a Python script to rename the six output files into names Samsung VR understands (Front, Back, Left, etc.). If you don't feel like using Python or don't have it installed, the script is easy enough to follow for manual renaming.
@@ -45,6 +44,9 @@ You can select multiple files and export them all at once. Pay particular attent
 ![Mali Converter compression options](mali-converter-compression-options.png)
 
 Place the final .pkm files into the SamsungVR or MilkVR folder on the root of the device.
+
+## Media
+To prevent VR videos from polluting the Gallery or other media browsing applications, add an empty file named `.nomedia` to the folder to prevent Android from indexing the folder.
 
 ## Samsung Official Discontinuation
 ![Samsung VR support dropped](2020-10-02-11_40_40-Samsung-VR.png)
